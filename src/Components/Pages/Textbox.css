@@ -1,0 +1,46 @@
+.textbox-container {
+    width: 300px;
+    margin-left: 185px;  /* Align left with some margin */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .textbox:focus {
+    outline: none;
+    border-color: #66b3ff;
+  }
+  
+  .submit-btn {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #faf5f5;
+    color: rgb(40, 24, 24);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e7eee7;
+  }
+  
+  
+  
+  

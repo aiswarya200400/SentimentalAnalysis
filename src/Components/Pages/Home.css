@@ -1,0 +1,61 @@
+/* Apply the background animation to the entire body or wrapper */
+body {
+    margin: 0;
+    height: 100vh;  /* Make sure the body spans the full height of the viewport */
+    animation: backgroundChange 10s infinite alternate;
+    background-size: 400% 400%;
+  }
+  
+  @keyframes backgroundChange {
+    0% {
+      background-color: #ffcccb;
+    }
+    25% {
+      background-color: #add8e6;
+    }
+    50% {
+      background-color: #90ee90;
+    }
+    75% {
+      background-color: #f0e68c;
+    }
+    100% {
+      background-color: #d3aee0;
+    }
+  }
+  
+  .about-container {
+    text-align: center;
+    padding: 20px;
+    /* Removed the backgroundChange animation from here */
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .separator {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-text {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .about-image {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
